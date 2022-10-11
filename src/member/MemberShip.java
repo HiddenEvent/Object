@@ -1,8 +1,12 @@
 package member;
 
+import lombok.Data;
+
+@Data
 public class MemberShip {
     public static void main(String[] args) {
         Customer customerKim = new Customer();
+
         customerKim.setCustomerName("김순신");
         customerKim.setCustomerId(10010);
         customerKim.bonusPoint = 1000;
